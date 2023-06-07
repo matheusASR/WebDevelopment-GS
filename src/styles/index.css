@@ -17,6 +17,8 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 100px;
+    border-top: 10px solid green;
+    border-bottom: 10px solid green;
 }
 
 .main__container > form {
@@ -36,8 +38,21 @@ h1 {
     width: 250px;
 }
 
+.footer__container {
+    height: 15%;
+    background-color: var(--background-header-footer);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .section__carousel {
     height: 400px;
     width: 650px;
     position: relative;
+}
+
+.carousel__img {
+    width: 700px;
+    height: 400px;
 }
